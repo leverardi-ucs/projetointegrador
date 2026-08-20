@@ -65,8 +65,8 @@ Resumo das Tecnologias
 
 Tecnologia/Finalidade
 
-Flutter / Desenvolvimento da aplicação móvel e das interfaces
-Dart / Linguagem de programação utilizada no projeto       
+Flutter / Desenvolvimento da aplicação móvel e das interfaces               
+Dart / Linguagem de programação utilizada no projeto               
 Flame Engine / Desenvolvimento das mecânicas do jogo               
 Visual Studio Code / Ambiente de desenvolvimento                         
 Git / Controle de versão                                  
