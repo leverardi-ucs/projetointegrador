@@ -63,13 +63,11 @@ Esse arquivo poderá ser utilizado para instalar e testar a versão final do apl
 
 Resumo das Tecnologias
 
-Tecnologia           Finalidade
-Flutter              Desenvolvimento da aplicação móvel e das interfaces 
-Dart                 Linguagem de programação utilizada no projeto       
-Flame Engine         Desenvolvimento das mecânicas do jogo               
-Visual Studio Code   Ambiente de desenvolvimento                         
-Git                  Controle de versão                                  
-GitHub               Hospedagem e desenvolvimento colaborativo           
-Android              Plataforma de execução do aplicativo                
-
-
+Tecnologia/Finalidade
+Flutter / Desenvolvimento da aplicação móvel e das interfaces 
+Dart / Linguagem de programação utilizada no projeto       
+Flame Engine / Desenvolvimento das mecânicas do jogo               
+Visual Studio Code / Ambiente de desenvolvimento                         
+Git / Controle de versão                                  
+GitHub / Hospedagem e desenvolvimento colaborativo           
+Android / Plataforma de execução do aplicativo                
