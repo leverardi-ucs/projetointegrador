@@ -1,8 +1,8 @@
-# Wireframes do Aplicativo
+Wireframes do Aplicativo
 
 Os wireframes apresentados neste documento representam o planejamento das telas do aplicativo **Brick Breaker**. Eles demonstram a organização dos componentes, as opções disponíveis ao usuário e a disposição dos elementos utilizados durante o jogo.
 
-## Tela Inicial
+Tela Inicial
 
 A tela inicial apresenta as três principais opções do aplicativo:
 
@@ -12,7 +12,7 @@ A tela inicial apresenta as três principais opções do aplicativo:
 
 ![Tela Inicial](../wireframes/tela-inicial.png)
 
-## Tela de Integrantes
+Tela de Integrantes
 
 A tela de integrantes apresenta o nome e sobrenome dos integrantes responsáveis pelo desenvolvimento do projeto.
 
@@ -20,7 +20,7 @@ O botão **Voltar** permite retornar à tela inicial.
 
 ![Tela de Integrantes](../wireframes/integrantes.png)
 
-## Tela de Configurações
+Tela de Configurações
 
 A tela de configurações permite definir características que serão utilizadas na construção das paredes de tijolos.
 
@@ -37,37 +37,37 @@ Após realizar as escolhas, o usuário poderá utilizar a opção **Salvar** par
 
 ![Tela de Configurações](../wireframes/configuracoes.png)
 
-## Nível 1
+Nível 1
 
 O primeiro nível apresenta uma parede completamente preenchida, formando uma estrutura regular de tijolos.
 
 ![Nível 1](../wireframes/nivel-1.png)
 
-## Nível 2
+Nível 2
 
 O segundo nível apresenta uma parede com espaços vazios entre determinadas posições, criando uma disposição diferente da utilizada no primeiro nível.
 
 ![Nível 2](../wireframes/nivel-2.png)
 
-## Nível 3
+Nível 3
 
 O terceiro nível apresenta os tijolos organizados no formato de uma pirâmide.
 
 ![Nível 3](../wireframes/nivel-3.png)
 
-## Nível 4
+Nível 4
 
 O quarto nível utiliza uma disposição alternada dos tijolos, deixando espaços entre os blocos e formando um novo padrão para a parede.
 
 ![Nível 4](../wireframes/nivel-4.png)
 
-## Nível 5
+Nível 5
 
 O quinto nível apresenta os tijolos organizados no formato de um losango, criando uma disposição diferente dos níveis anteriores.
 
 ![Nível 5](../wireframes/nivel-5.png)
 
-## Game Over
+Game Over
 
 Quando a bola ultrapassar a plataforma sem ocorrer a colisão, será apresentada a tela de **Game Over**.
 
