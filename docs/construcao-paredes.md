@@ -1,6 +1,6 @@
-Construção das Paredes de Blocos
+# Construção das Paredes de Blocos
 
-Método de Construção
+## Método de Construção
 
 As paredes de blocos do jogo Brick Breaker serão construídas utilizando uma estrutura baseada em matrizes.
 
@@ -15,7 +15,9 @@ Dessa maneira, diferentes paredes podem ser criadas apenas modificando a disposi
 
 O tamanho e o padrão de cores dos tijolos serão definidos de acordo com as opções selecionadas anteriormente pelo usuário na tela de configurações.
 
-Nível 1 - Parede Completa
+## Níveis do Jogo
+
+### Nível 1 - Parede Completa
 
 O primeiro nível utilizará uma parede totalmente preenchida. Seu objetivo é apresentar ao jogador a mecânica básica do jogo.
 
@@ -30,7 +32,7 @@ Exemplo simplificado da matriz:
 
 Nesse nível, todas as posições disponíveis possuem tijolos.
 
-Nível 2 - Parede com Espaços Vazios
+### Nível 2 - Parede com Espaços Vazios
 
 O segundo nível utiliza posições preenchidas e posições vazias, criando uma parede menos uniforme.
 
@@ -47,7 +49,7 @@ Os espaços representados por 0 não recebem tijolos.
 
 Esse padrão também poderá utilizar um fator de aleatoriedade durante sua geração, permitindo variar determinadas posições da parede sem alterar a estrutura geral do nível.
 
-Nível 3 - Pirâmide
+### Nível 3 - Pirâmide
 
 No terceiro nível, os tijolos serão organizados formando uma pirâmide.
 
@@ -62,7 +64,7 @@ Exemplo simplificado:
 
 Nesse caso, a matriz possui uma estrutura previamente definida para produzir o formato apresentado no wireframe.
 
-Nível 4 - Padrão Alternado
+### Nível 4 - Padrão Alternado
 
 O quarto nível utilizará um padrão alternado, distribuindo os tijolos com espaços entre eles.
 
@@ -77,7 +79,7 @@ Exemplo simplificado:
 
 Esse formato cria uma parede mais espaçada e modifica os ângulos e possibilidades de colisão da bola durante o nível.
 
-Nível 5 - Losango
+### Nível 5 - Losango
 
 No quinto nível, os tijolos serão posicionados formando um losango.
 
@@ -93,7 +95,7 @@ Exemplo simplificado:
 
 A utilização de uma matriz predefinida permite manter o formato do losango sempre que o nível for iniciado.
 
-Geração dos Tijolos
+## Geração dos Tijolos
 
 Durante a implementação do jogo, cada matriz será percorrida para verificar quais posições devem receber tijolos. De forma simplificada, o processo seguirá os seguintes passos:
 
@@ -113,7 +115,7 @@ Adicionar o tijolo à área do jogo.
 
 As posições contendo 0 serão ignoradas, criando os espaços vazios observados em determinados níveis.
 
-Progressão dos Níveis
+## Progressão dos Níveis
 
 Cada parede corresponde a um nível do jogo. Quando todos os tijolos presentes na parede forem destruídos, o nível será considerado concluído e o próximo será iniciado automaticamente.
 
