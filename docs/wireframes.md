@@ -77,5 +77,5 @@ Nessa situação, o jogador poderá:
 * **Próximo Nível:** avançar diretamente para o próximo nível;
 * **Voltar ao Menu:** retornar à tela inicial do aplicativo.
 
-![Game Over](../wireframes/game-over.png)
+![Game Over](../wireframes/perdeu-bola.png)
 
