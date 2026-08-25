@@ -2,11 +2,11 @@ Ambiente de Desenvolvimento e Tecnologias
 
 Ambiente de Desenvolvimento
 
-Para o desenvolvimento do jogo **Brick Breaker**, será utilizado o **Visual Studio Code (VS Code)** como ambiente de desenvolvimento. A ferramenta foi escolhida por possuir suporte ao Flutter e à linguagem Dart através de extensões, além de permitir a integração com ferramentas de versionamento como o Git.
+Para o desenvolvimento do jogo Brick Breaker, será utilizado o Visual Studio Code (VS Code) como ambiente de desenvolvimento. A ferramenta foi escolhida por possuir suporte ao Flutter e à linguagem Dart através de extensões, além de permitir a integração com ferramentas de versionamento como o Git.
 
 Durante o desenvolvimento, a aplicação poderá ser executada e testada utilizando um dispositivo Android físico ou um emulador Android.
 
-O código-fonte e a documentação do projeto serão armazenados em um repositório público no **GitHub**, permitindo que todos os integrantes do grupo participem do desenvolvimento e mantenham um histórico das alterações realizadas.
+O código-fonte e a documentação do projeto serão armazenados em um repositório público no GitHub, permitindo que todos os integrantes do grupo participem do desenvolvimento e mantenham um histórico das alterações realizadas.
 
 Tecnologias e Linguagens
 
@@ -42,10 +42,12 @@ As alterações serão realizadas através de commits incrementais, seguindo o p
 
 Exemplos:
 
+```text
 feat: create initial game screen
 feat: implement ball movement
 fix: correct paddle collision
 docs: add technologies documentation
+```
 
 Geração do APK
 
@@ -53,22 +55,26 @@ O aplicativo será desenvolvido inicialmente para dispositivos Android. Após a 
 
 A geração da versão final será realizada através das ferramentas disponibilizadas pelo Flutter utilizando o seguinte comando:
 
+```bash
 flutter build apk --release
+```
 
 Após a compilação, o arquivo APK será disponibilizado pelo Flutter no diretório:
 
+```text
 build/app/outputs/flutter-apk/app-release.apk
+```
 
 Esse arquivo poderá ser utilizado para instalar e testar a versão final do aplicativo em dispositivos Android.
 
 Resumo das Tecnologias
 
-Tecnologia/Finalidade
-
-Flutter / Desenvolvimento da aplicação móvel e das interfaces               
-Dart / Linguagem de programação utilizada no projeto               
-Flame Engine / Desenvolvimento das mecânicas do jogo               
-Visual Studio Code / Ambiente de desenvolvimento                         
-Git / Controle de versão                                  
-GitHub / Hospedagem e desenvolvimento colaborativo           
-Android / Plataforma de execução do aplicativo                
+| Tecnologia         | Finalidade                                          |
+| ------------------ | --------------------------------------------------- |
+| Flutter            | Desenvolvimento da aplicação móvel e das interfaces |
+| Dart               | Linguagem de programação utilizada no projeto       |
+| Flame Engine       | Desenvolvimento das mecânicas do jogo               |
+| Visual Studio Code | Ambiente de desenvolvimento                         |
+| Git                | Controle de versão                                  |
+| GitHub             | Hospedagem e desenvolvimento colaborativo           |
+| Android            | Plataforma de execução do aplicativo                |
