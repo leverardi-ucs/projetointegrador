@@ -1,6 +1,6 @@
-Ambiente de Desenvolvimento e Tecnologias
+# Ambiente de Desenvolvimento e Tecnologias
 
-Ambiente de Desenvolvimento
+## Ambiente de Desenvolvimento
 
 Para o desenvolvimento do jogo Brick Breaker, será utilizado o Visual Studio Code (VS Code) como ambiente de desenvolvimento. A ferramenta foi escolhida por possuir suporte ao Flutter e à linguagem Dart através de extensões, além de permitir a integração com ferramentas de versionamento como o Git.
 
@@ -8,7 +8,7 @@ Durante o desenvolvimento, a aplicação poderá ser executada e testada utiliza
 
 O código-fonte e a documentação do projeto serão armazenados em um repositório público no GitHub, permitindo que todos os integrantes do grupo participem do desenvolvimento e mantenham um histórico das alterações realizadas.
 
-Tecnologias e Linguagens
+## Tecnologias e Linguagens
 
 Flutter
 
@@ -49,7 +49,7 @@ fix: correct paddle collision
 docs: add technologies documentation
 ```
 
-Geração do APK
+## Geração do APK
 
 O aplicativo será desenvolvido inicialmente para dispositivos Android. Após a implementação e os testes, será gerado um arquivo APK para permitir a instalação e execução do jogo em dispositivos Android.
 
@@ -67,7 +67,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 Esse arquivo poderá ser utilizado para instalar e testar a versão final do aplicativo em dispositivos Android.
 
-Resumo das Tecnologias
+## Resumo das Tecnologias
 
 | Tecnologia         | Finalidade                                          |
 | ------------------ | --------------------------------------------------- |
